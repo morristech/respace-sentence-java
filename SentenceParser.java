@@ -9,7 +9,7 @@ public class SentenceParser { // Re-adds spaces to a text which has had all its 
 	private final String noSpaceText;
 	private final HashMap<String, Long> dataMap;
 	private static final String SENTENCE_SPLITS = "!\"/().,:;?*<>";
-	private static final String WORD_FREQUENCY = "/Users/platelminto/Documents/frequencies.txt"; // Location of file with word frequency information
+	private static final String WORD_FREQUENCY = ""; // Location of file with word frequency information
 	private static final String WORD_FREQUENCY_DELIMITER = " - "; // What to use to separate the word from its frequency in the WORD_FREQUENCY file
 
 	public static void main(String...args) {
